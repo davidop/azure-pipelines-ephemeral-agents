@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ Feature-AddUniqueIdPreference ]
   pull_request:
-    branches: [ master ]
+    branches: [ Feature-AddUniqueIdPreference ]
 
 jobs:
   build:
